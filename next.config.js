@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  env: {
+    domain: 'doshka.com.ua',
+  }
+}
 
 module.exports = nextConfig
